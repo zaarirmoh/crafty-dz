@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "DzairCraft",
+    "tagline": "Algerian heritage, made by hand."
+  },
+  "nav": {
+    "explore": "Explore",
+    "collections": "Collections",
+    "journal": "Journal",
+    "account": "My Account",
+    "studio": "Studio",
+    "admin": "Admin",
+    "login": "Log in",
+    "register": "Join"
+  },
+  "actions": {
+    "viewProfile": "View profile",
+    "requestCommission": "Request a commission",
+    "resetFilters": "Reset filters",
+    "logout": "Log out",
+    "backToSite": "Back to site",
+    "viewAll": "View all"
+  },
+  "roles": {
+    "guest": "Guest",
+    "client": "Client",
+    "craftsman": "Artisan",
+    "admin": "Admin"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  },
+  "categories": {
+    "ceramics": "Ceramics & Pottery",
+    "leather": "Leather Craft",
+    "copper": "Copper & Brass",
+    "textiles": "Textiles & Rugs",
+    "filigree": "Silver Filigree",
+    "woodwork": "Woodwork",
+    "fineArts": "Fine Arts"
+  },
+  "regions": {
+    "kabylie": "Kabylie",
+    "casbah": "Casbah (Algiers)",
+    "constantine": "Constantine",
+    "mzab": "Mzab (Ghardaïa)",
+    "tlemcen": "Tlemcen",
+    "aures": "Aurès",
+    "oran": "Oran",
+    "sahara": "Sahara"
+  },
+  "roleSwitcher": {
+    "title": "Preview as",
+    "hint": "Dev only — switch role"
+  },
+  "home": {
+    "eyebrow": "Master artisans of Algeria",
+    "title": "Where heritage is kept alive by hand",
+    "subtitle": "Discover master craftsmen keeping traditional Algerian crafts alive — from Kabyle ceramics to the silver filigree of the Casbah — and commission a piece of your own.",
+    "ctaExplore": "Explore artisans",
+    "ctaJournal": "Read the Journal",
+    "browseByCraft": "Browse by craft",
+    "featuredTitle": "Featured artisans",
+    "journalTitle": "From the Journal"
+  },
+  "placeholder": {
+    "comingSoon": "This part of DzairCraft is being built. Check back soon.",
+    "underConstruction": "Coming together"
+  },
+  "pages": {
+    "explore": "Explore artisans",
+    "craftsman": "Artisan profile",
+    "collections": "Collections",
+    "collectionDetail": "Collection",
+    "journal": "The Journal",
+    "journalPost": "Journal",
+    "login": "Log in",
+    "register": "Join DzairCraft",
+    "account": "My account",
+    "studioOverview": "Studio overview",
+    "studioProfile": "Edit profile",
+    "studioWorks": "My works",
+    "studioWorkForm": "Work",
+    "studioCommissions": "Commission requests",
+    "adminOverview": "Admin overview",
+    "adminCraftsmen": "Craftsmen",
+    "adminUsers": "Users",
+    "adminWorks": "Moderate works",
+    "adminJournal": "Manage journal",
+    "adminTaxonomy": "Categories & regions",
+    "notFound": "Page not found"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "discover": "Discover",
+    "tagline": "A curated atelier directory honoring the master craftsmen of Algeria."
+  },
+  "studioNav": {
+    "overview": "Overview",
+    "profile": "Profile",
+    "works": "Works",
+    "commissions": "Commissions"
+  },
+  "adminNav": {
+    "overview": "Overview",
+    "craftsmen": "Craftsmen",
+    "users": "Users",
+    "works": "Works",
+    "journal": "Journal",
+    "taxonomy": "Taxonomy"
+  },
+  "error": {
+    "title": "Something went wrong.",
+    "body": "Please reload the page."
+  }
+}

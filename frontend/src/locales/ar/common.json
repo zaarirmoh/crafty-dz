@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "DzairCraft",
+    "tagline": "التراث الجزائري، مصنوع باليد."
+  },
+  "nav": {
+    "explore": "استكشاف",
+    "collections": "المجموعات",
+    "journal": "المجلة",
+    "account": "حسابي",
+    "studio": "المرسم",
+    "admin": "الإدارة",
+    "login": "تسجيل الدخول",
+    "register": "انضمّ"
+  },
+  "actions": {
+    "viewProfile": "عرض الملف",
+    "requestCommission": "اطلب تحفة",
+    "resetFilters": "إعادة الضبط",
+    "logout": "تسجيل الخروج",
+    "backToSite": "العودة إلى الموقع",
+    "viewAll": "عرض الكل"
+  },
+  "roles": {
+    "guest": "زائر",
+    "client": "عميل",
+    "craftsman": "حِرفي",
+    "admin": "مدير"
+  },
+  "language": {
+    "label": "اللغة",
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  },
+  "categories": {
+    "ceramics": "الخزف والفخار",
+    "leather": "حِرف الجلد",
+    "copper": "النحاس والبرونز",
+    "textiles": "المنسوجات والزرابي",
+    "filigree": "مصوغات الفضة",
+    "woodwork": "النجارة",
+    "fineArts": "الفنون الجميلة"
+  },
+  "regions": {
+    "kabylie": "القبائل",
+    "casbah": "القصبة (الجزائر)",
+    "constantine": "قسنطينة",
+    "mzab": "ميزاب (غرداية)",
+    "tlemcen": "تلمسان",
+    "aures": "الأوراس",
+    "oran": "وهران",
+    "sahara": "الصحراء"
+  },
+  "roleSwitcher": {
+    "title": "معاينة بدور",
+    "hint": "للتطوير فقط — غيّر الدور"
+  },
+  "home": {
+    "eyebrow": "كبار حِرفيي الجزائر",
+    "title": "حيث يُصان التراث بالأيدي",
+    "subtitle": "اكتشف كبار الحِرفيين الذين يحافظون على الحِرف الجزائرية التقليدية — من خزف القبائل إلى مصوغات القصبة الفضية — واطلب تحفتك الخاصة.",
+    "ctaExplore": "استكشف الحِرفيين",
+    "ctaJournal": "اقرأ المجلة",
+    "browseByCraft": "تصفّح حسب الحرفة",
+    "featuredTitle": "حِرفيون مميّزون",
+    "journalTitle": "من المجلة"
+  },
+  "placeholder": {
+    "comingSoon": "هذا الجزء من DzairCraft قيد الإنشاء. عُد قريبًا.",
+    "underConstruction": "قيد الإعداد"
+  },
+  "pages": {
+    "explore": "استكشاف الحِرفيين",
+    "craftsman": "ملف الحِرفي",
+    "collections": "المجموعات",
+    "collectionDetail": "مجموعة",
+    "journal": "المجلة",
+    "journalPost": "المجلة",
+    "login": "تسجيل الدخول",
+    "register": "انضمّ إلى DzairCraft",
+    "account": "حسابي",
+    "studioOverview": "نظرة عامة على المرسم",
+    "studioProfile": "تعديل الملف",
+    "studioWorks": "أعمالي",
+    "studioWorkForm": "عمل",
+    "studioCommissions": "طلبات التحف",
+    "adminOverview": "نظرة عامة للإدارة",
+    "adminCraftsmen": "الحِرفيون",
+    "adminUsers": "المستخدمون",
+    "adminWorks": "مراجعة الأعمال",
+    "adminJournal": "إدارة المجلة",
+    "adminTaxonomy": "الفئات والمناطق",
+    "notFound": "الصفحة غير موجودة"
+  },
+  "footer": {
+    "rights": "جميع الحقوق محفوظة.",
+    "discover": "اكتشف",
+    "tagline": "دليل مراسم منسّق يكرّم كبار حِرفيي الجزائر."
+  },
+  "studioNav": {
+    "overview": "نظرة عامة",
+    "profile": "الملف",
+    "works": "الأعمال",
+    "commissions": "الطلبات"
+  },
+  "adminNav": {
+    "overview": "نظرة عامة",
+    "craftsmen": "الحِرفيون",
+    "users": "المستخدمون",
+    "works": "الأعمال",
+    "journal": "المجلة",
+    "taxonomy": "التصنيفات"
+  },
+  "error": {
+    "title": "حدث خطأ ما.",
+    "body": "يرجى إعادة تحميل الصفحة."
+  }
+}

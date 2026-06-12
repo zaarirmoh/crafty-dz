@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "DzairCraft",
+    "tagline": "Le patrimoine algérien, fait main."
+  },
+  "nav": {
+    "explore": "Explorer",
+    "collections": "Collections",
+    "journal": "Journal",
+    "account": "Mon compte",
+    "studio": "Atelier",
+    "admin": "Admin",
+    "login": "Connexion",
+    "register": "Rejoindre"
+  },
+  "actions": {
+    "viewProfile": "Voir le profil",
+    "requestCommission": "Demander une commande",
+    "resetFilters": "Réinitialiser",
+    "logout": "Déconnexion",
+    "backToSite": "Retour au site",
+    "viewAll": "Voir tout"
+  },
+  "roles": {
+    "guest": "Invité",
+    "client": "Client",
+    "craftsman": "Artisan",
+    "admin": "Admin"
+  },
+  "language": {
+    "label": "Langue",
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  },
+  "categories": {
+    "ceramics": "Céramique & Poterie",
+    "leather": "Maroquinerie",
+    "copper": "Cuivre & Laiton",
+    "textiles": "Textiles & Tapis",
+    "filigree": "Filigrane d'argent",
+    "woodwork": "Boiserie",
+    "fineArts": "Beaux-arts"
+  },
+  "regions": {
+    "kabylie": "Kabylie",
+    "casbah": "Casbah (Alger)",
+    "constantine": "Constantine",
+    "mzab": "Mzab (Ghardaïa)",
+    "tlemcen": "Tlemcen",
+    "aures": "Aurès",
+    "oran": "Oran",
+    "sahara": "Sahara"
+  },
+  "roleSwitcher": {
+    "title": "Aperçu en tant que",
+    "hint": "Dev uniquement — changer de rôle"
+  },
+  "home": {
+    "eyebrow": "Maîtres artisans d'Algérie",
+    "title": "Là où le patrimoine se transmet à la main",
+    "subtitle": "Découvrez les maîtres artisans qui perpétuent les métiers traditionnels algériens — de la céramique kabyle au filigrane d'argent de la Casbah — et commandez votre propre pièce.",
+    "ctaExplore": "Explorer les artisans",
+    "ctaJournal": "Lire le Journal",
+    "browseByCraft": "Parcourir par métier",
+    "featuredTitle": "Artisans à l'honneur",
+    "journalTitle": "Du Journal"
+  },
+  "placeholder": {
+    "comingSoon": "Cette partie de DzairCraft est en construction. Revenez bientôt.",
+    "underConstruction": "En préparation"
+  },
+  "pages": {
+    "explore": "Explorer les artisans",
+    "craftsman": "Profil d'artisan",
+    "collections": "Collections",
+    "collectionDetail": "Collection",
+    "journal": "Le Journal",
+    "journalPost": "Journal",
+    "login": "Connexion",
+    "register": "Rejoindre DzairCraft",
+    "account": "Mon compte",
+    "studioOverview": "Aperçu de l'atelier",
+    "studioProfile": "Modifier le profil",
+    "studioWorks": "Mes œuvres",
+    "studioWorkForm": "Œuvre",
+    "studioCommissions": "Demandes de commande",
+    "adminOverview": "Aperçu admin",
+    "adminCraftsmen": "Artisans",
+    "adminUsers": "Utilisateurs",
+    "adminWorks": "Modérer les œuvres",
+    "adminJournal": "Gérer le journal",
+    "adminTaxonomy": "Catégories & régions",
+    "notFound": "Page introuvable"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "discover": "Découvrir",
+    "tagline": "Un annuaire d'ateliers qui honore les maîtres artisans d'Algérie."
+  },
+  "studioNav": {
+    "overview": "Aperçu",
+    "profile": "Profil",
+    "works": "Œuvres",
+    "commissions": "Commandes"
+  },
+  "adminNav": {
+    "overview": "Aperçu",
+    "craftsmen": "Artisans",
+    "users": "Utilisateurs",
+    "works": "Œuvres",
+    "journal": "Journal",
+    "taxonomy": "Taxonomie"
+  },
+  "error": {
+    "title": "Une erreur est survenue.",
+    "body": "Veuillez recharger la page."
+  }
+}
