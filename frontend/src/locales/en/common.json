@@ -140,6 +140,31 @@
     "notFound": "This story isn't available.",
     "back": "Back to the Journal"
   },
+  "collections": {
+    "title": "Collections",
+    "subtitle": "Curated groupings of artisans around a shared theme.",
+    "artisans": "{{count}} artisans",
+    "empty": "No collections yet.",
+    "notFound": "This collection isn't available.",
+    "back": "Back to Collections"
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Sign in to manage your favorites and commissions.",
+    "registerTitle": "Join DzairCraft",
+    "registerSubtitle": "Create an account as a client or an artisan.",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full name",
+    "role": "I am a…",
+    "roleClient": "Client",
+    "roleCraftsman": "Artisan",
+    "signIn": "Sign in",
+    "createAccount": "Create account",
+    "demoNote": "Demo mode — any details sign you in. No real account is created.",
+    "haveAccount": "Already have an account?",
+    "noAccount": "New to DzairCraft?"
+  },
   "footer": {
     "rights": "All rights reserved.",
     "discover": "Discover",

@@ -140,6 +140,31 @@
     "notFound": "Cette histoire n'est pas disponible.",
     "back": "Retour au Journal"
   },
+  "collections": {
+    "title": "Collections",
+    "subtitle": "Des sélections d'artisans réunis autour d'un thème commun.",
+    "artisans": "{{count}} artisans",
+    "empty": "Aucune collection pour l'instant.",
+    "notFound": "Cette collection n'est pas disponible.",
+    "back": "Retour aux Collections"
+  },
+  "auth": {
+    "loginTitle": "Bon retour",
+    "loginSubtitle": "Connectez-vous pour gérer vos favoris et vos commandes.",
+    "registerTitle": "Rejoindre DzairCraft",
+    "registerSubtitle": "Créez un compte en tant que client ou artisan.",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "name": "Nom complet",
+    "role": "Je suis…",
+    "roleClient": "Client",
+    "roleCraftsman": "Artisan",
+    "signIn": "Se connecter",
+    "createAccount": "Créer un compte",
+    "demoNote": "Mode démo — n'importe quelles informations vous connectent. Aucun compte réel n'est créé.",
+    "haveAccount": "Vous avez déjà un compte ?",
+    "noAccount": "Nouveau sur DzairCraft ?"
+  },
   "footer": {
     "rights": "Tous droits réservés.",
     "discover": "Découvrir",

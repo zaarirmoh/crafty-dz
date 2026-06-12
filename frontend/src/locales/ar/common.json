@@ -140,6 +140,31 @@
     "notFound": "هذه القصة غير متاحة.",
     "back": "العودة إلى المجلة"
   },
+  "collections": {
+    "title": "المجموعات",
+    "subtitle": "تشكيلات منسّقة من الحِرفيين حول موضوع مشترك.",
+    "artisans": "{{count}} حِرفي",
+    "empty": "لا توجد مجموعات بعد.",
+    "notFound": "هذه المجموعة غير متاحة.",
+    "back": "العودة إلى المجموعات"
+  },
+  "auth": {
+    "loginTitle": "أهلًا بعودتك",
+    "loginSubtitle": "سجّل الدخول لإدارة مفضّلاتك وطلباتك.",
+    "registerTitle": "انضمّ إلى DzairCraft",
+    "registerSubtitle": "أنشئ حسابًا كعميل أو حِرفي.",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "name": "الاسم الكامل",
+    "role": "أنا…",
+    "roleClient": "عميل",
+    "roleCraftsman": "حِرفي",
+    "signIn": "تسجيل الدخول",
+    "createAccount": "إنشاء حساب",
+    "demoNote": "وضع تجريبي — أي بيانات تُسجّل دخولك. لا يُنشأ حساب حقيقي.",
+    "haveAccount": "لديك حساب بالفعل؟",
+    "noAccount": "جديد على DzairCraft؟"
+  },
   "footer": {
     "rights": "جميع الحقوق محفوظة.",
     "discover": "اكتشف",
