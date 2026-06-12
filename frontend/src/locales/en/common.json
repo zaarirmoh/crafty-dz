@@ -113,6 +113,33 @@
     "adminTaxonomy": "Categories & regions",
     "notFound": "Page not found"
   },
+  "profile": {
+    "requestCommission": "Request a commission",
+    "about": "About",
+    "gallery": "Selected works",
+    "reviews": "Reviews",
+    "noReviews": "No reviews yet.",
+    "noWorks": "No published works yet.",
+    "years": "{{count}} years of practice",
+    "commissionDialogTitle": "Commission {{name}}",
+    "commissionDialogDesc": "Describe what you have in mind. This is a demo — no request is actually sent.",
+    "messageLabel": "Your message",
+    "budgetLabel": "Budget (optional)",
+    "send": "Send request",
+    "cancel": "Cancel",
+    "commissionSent": "Request sent to {{name}} (demo).",
+    "notFound": "This artisan isn't available.",
+    "backToExplore": "Back to Explore"
+  },
+  "journal": {
+    "title": "The Journal",
+    "subtitle": "Stories from the workshops, looms and kilns of Algeria.",
+    "by": "By {{author}}",
+    "readMore": "Read story",
+    "empty": "No journal entries yet.",
+    "notFound": "This story isn't available.",
+    "back": "Back to the Journal"
+  },
   "footer": {
     "rights": "All rights reserved.",
     "discover": "Discover",

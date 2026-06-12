@@ -113,6 +113,33 @@
     "adminTaxonomy": "Catégories & régions",
     "notFound": "Page introuvable"
   },
+  "profile": {
+    "requestCommission": "Demander une commande",
+    "about": "À propos",
+    "gallery": "Œuvres choisies",
+    "reviews": "Avis",
+    "noReviews": "Aucun avis pour l'instant.",
+    "noWorks": "Aucune œuvre publiée pour l'instant.",
+    "years": "{{count}} ans de pratique",
+    "commissionDialogTitle": "Commander à {{name}}",
+    "commissionDialogDesc": "Décrivez votre idée. Ceci est une démo — aucune demande n'est réellement envoyée.",
+    "messageLabel": "Votre message",
+    "budgetLabel": "Budget (facultatif)",
+    "send": "Envoyer la demande",
+    "cancel": "Annuler",
+    "commissionSent": "Demande envoyée à {{name}} (démo).",
+    "notFound": "Cet artisan n'est pas disponible.",
+    "backToExplore": "Retour à Explorer"
+  },
+  "journal": {
+    "title": "Le Journal",
+    "subtitle": "Des histoires d'ateliers, de métiers à tisser et de fours d'Algérie.",
+    "by": "Par {{author}}",
+    "readMore": "Lire l'histoire",
+    "empty": "Aucune entrée pour l'instant.",
+    "notFound": "Cette histoire n'est pas disponible.",
+    "back": "Retour au Journal"
+  },
   "footer": {
     "rights": "Tous droits réservés.",
     "discover": "Découvrir",

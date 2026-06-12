@@ -113,6 +113,33 @@
     "adminTaxonomy": "الفئات والمناطق",
     "notFound": "الصفحة غير موجودة"
   },
+  "profile": {
+    "requestCommission": "اطلب تحفة",
+    "about": "نبذة",
+    "gallery": "أعمال مختارة",
+    "reviews": "التقييمات",
+    "noReviews": "لا توجد تقييمات بعد.",
+    "noWorks": "لا توجد أعمال منشورة بعد.",
+    "years": "{{count}} سنة من الممارسة",
+    "commissionDialogTitle": "اطلب من {{name}}",
+    "commissionDialogDesc": "صف ما يدور في ذهنك. هذه نسخة تجريبية — لا يُرسَل أي طلب فعليًا.",
+    "messageLabel": "رسالتك",
+    "budgetLabel": "الميزانية (اختياري)",
+    "send": "إرسال الطلب",
+    "cancel": "إلغاء",
+    "commissionSent": "أُرسل الطلب إلى {{name}} (تجريبي).",
+    "notFound": "هذا الحِرفي غير متاح.",
+    "backToExplore": "العودة إلى الاستكشاف"
+  },
+  "journal": {
+    "title": "المجلة",
+    "subtitle": "حكايات من ورشات وأنوال وأفران الجزائر.",
+    "by": "بقلم {{author}}",
+    "readMore": "اقرأ القصة",
+    "empty": "لا توجد مقالات بعد.",
+    "notFound": "هذه القصة غير متاحة.",
+    "back": "العودة إلى المجلة"
+  },
   "footer": {
     "rights": "جميع الحقوق محفوظة.",
     "discover": "اكتشف",
