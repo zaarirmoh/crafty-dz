@@ -78,6 +78,15 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
+/* Shared page container — fills large screens edge-to-edge with comfortable
+   responsive side padding, capped at 120rem so it never over-stretches. */
+@utility page-x {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 120rem;
+  padding-inline: clamp(1.25rem, 4vw, 5rem);
+}
+
 @layer base {
   * {
     border-color: var(--border);

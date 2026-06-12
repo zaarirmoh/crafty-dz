@@ -161,7 +161,7 @@
     "roleCraftsman": "حِرفي",
     "signIn": "تسجيل الدخول",
     "createAccount": "إنشاء حساب",
-    "demoNote": "وضع تجريبي — أي بيانات تُسجّل دخولك. لا يُنشأ حساب حقيقي.",
+    "demoNote": "وضع تجريبي — سجّل الدخول بـ admin@… أو craftsman@… أو client@… لمعاينة كل دور.",
     "haveAccount": "لديك حساب بالفعل؟",
     "noAccount": "جديد على DzairCraft؟"
   },

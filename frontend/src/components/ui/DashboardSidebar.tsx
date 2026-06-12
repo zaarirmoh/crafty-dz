@@ -68,7 +68,7 @@ export default function DashboardSidebar() {
               )
             }
           >
-            <Icon className="size-4" />
+            <Icon className="size-5" />
             {t(labelKey)}
           </NavLink>
         ))}

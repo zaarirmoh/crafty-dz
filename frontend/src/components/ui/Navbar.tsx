@@ -44,7 +44,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-6">
+      <div className="page-x flex h-16 items-center justify-between gap-4">
         <div className="flex items-center gap-8">
           <Brand />
           <nav className="hidden items-center gap-6 md:flex">
@@ -74,7 +74,7 @@ export default function Navbar() {
                   className="flex items-center rounded-full outline-none focus-visible:ring-2 focus-visible:ring-ring"
                   aria-label={user.name}
                 >
-                  <Avatar className="size-8">
+                  <Avatar className="size-9">
                     <AvatarImage src={user.avatar} alt={user.name} />
                     <AvatarFallback>{user.name.charAt(0)}</AvatarFallback>
                   </Avatar>

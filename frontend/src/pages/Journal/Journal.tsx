@@ -9,7 +9,7 @@ export default function Journal() {
   const { posts, loading, error } = useJournal();
 
   return (
-    <div className="mx-auto max-w-6xl px-6 py-12">
+    <div className="page-x py-12">
       <header className="animate-in fade-in slide-in-from-bottom-4 duration-500">
         <h1 className="font-display text-4xl text-foreground md:text-5xl">{t('journal.title')}</h1>
         <p className="mt-3 max-w-xl text-muted-foreground">{t('journal.subtitle')}</p>

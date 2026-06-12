@@ -13,7 +13,7 @@ export default function Brand({ className }: BrandProps) {
     <Link
       to="/"
       className={cn(
-        'font-display text-xl font-semibold tracking-tight text-foreground',
+        'font-display text-2xl font-semibold tracking-tight text-foreground',
         className,
       )}
     >

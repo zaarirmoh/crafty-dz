@@ -6,8 +6,16 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { useAppDispatch } from '@/redux/hooks';
 import { loginAs } from '@/redux/reducers/AuthReducer';
+import type { Role } from '@/types';
 
-// Mock auth (build prompt Section 0): no real request — sign in as a demo client.
+const ROLE_HOME: Record<Role, string> = {
+  admin: '/admin',
+  craftsman: '/studio',
+  client: '/account',
+};
+
+// Mock auth (build prompt Section 0): the email prefix picks the demo role —
+// admin@… → admin, craftsman@… → craftsman, anything else → client.
 export default function Login() {
   const { t } = useTranslation('common');
   const dispatch = useAppDispatch();
@@ -17,8 +25,14 @@ export default function Login() {
 
   const submit = (e: FormEvent) => {
     e.preventDefault();
-    dispatch(loginAs('client'));
-    navigate('/account');
+    const local = email.trim().toLowerCase();
+    const role: Role = local.startsWith('admin@')
+      ? 'admin'
+      : local.startsWith('craftsman@')
+        ? 'craftsman'
+        : 'client';
+    dispatch(loginAs(role));
+    navigate(ROLE_HOME[role]);
   };
 
   return (

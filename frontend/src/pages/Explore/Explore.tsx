@@ -137,7 +137,7 @@ export default function Explore() {
   );
 
   return (
-    <div className="mx-auto max-w-6xl px-6 py-12">
+    <div className="page-x py-12">
       <header className="animate-in fade-in slide-in-from-bottom-4 duration-500">
         <h1 className="font-display text-4xl text-foreground md:text-5xl">{t('title')}</h1>
         <p className="mt-3 max-w-xl text-muted-foreground">{t('subtitle')}</p>
@@ -172,7 +172,7 @@ export default function Explore() {
           {error ? (
             <p className="py-24 text-center text-muted-foreground">{t('error')}</p>
           ) : loading ? (
-            <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+            <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
               {Array.from({ length: 6 }).map((_, i) => (
                 <CardSkeleton key={i} />
               ))}
@@ -187,7 +187,7 @@ export default function Explore() {
             </div>
           ) : (
             <>
-              <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+              <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
                 {craftsmen.map((craftsman, i) => (
                   <Reveal key={craftsman.id} delay={i * 60}>
                     <CraftsmanCard

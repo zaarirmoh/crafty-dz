@@ -13,7 +13,7 @@ export default function CategoryBadge({ nameKey, className }: CategoryBadgeProps
   return (
     <span
       className={cn(
-        'inline-block rounded-full bg-badge px-2.5 py-0.5 text-[0.68rem] font-semibold uppercase tracking-wider text-badge-foreground',
+        'inline-block rounded-full bg-badge px-3 py-1 text-xs font-semibold uppercase tracking-wider text-badge-foreground',
         className,
       )}
     >

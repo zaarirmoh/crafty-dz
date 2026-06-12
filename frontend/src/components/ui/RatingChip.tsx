@@ -17,7 +17,7 @@ export default function RatingChip({ rating, reviewCount, className }: RatingChi
         className,
       )}
     >
-      <Star className="size-3 fill-star text-star" />
+      <Star className="size-3.5 fill-star text-star" />
       {ratingLabel(rating)}
       {typeof reviewCount === 'number' && (
         <span className="text-muted-foreground">({reviewCount})</span>

@@ -27,7 +27,7 @@ export default function CraftsmanProfile() {
     return (
       <div>
         <Skeleton className="h-64 w-full rounded-none md:h-80" />
-        <div className="mx-auto max-w-5xl px-6">
+        <div className="page-x">
           <div className="relative -mt-16 space-y-4 rounded-2xl border bg-card p-8 shadow-sm">
             <Skeleton className="h-4 w-24" />
             <Skeleton className="h-10 w-64" />
@@ -63,7 +63,7 @@ export default function CraftsmanProfile() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" />
       </div>
 
-      <div className="mx-auto max-w-5xl px-6">
+      <div className="page-x">
         <Reveal className="relative -mt-16 rounded-2xl border bg-card p-6 shadow-sm md:p-8">
           <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
             <div>
@@ -106,7 +106,7 @@ export default function CraftsmanProfile() {
           {works.length === 0 ? (
             <p className="mt-4 text-muted-foreground">{t('profile.noWorks')}</p>
           ) : (
-            <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
               {works.map((work, i) => (
                 <Reveal key={work.id} delay={i * 60}>
                   <WorkCard work={work} />
@@ -121,7 +121,7 @@ export default function CraftsmanProfile() {
           {reviews.length === 0 ? (
             <p className="mt-4 text-muted-foreground">{t('profile.noReviews')}</p>
           ) : (
-            <div className="mt-5 grid gap-5 md:grid-cols-2">
+            <div className="mt-5 grid gap-5 md:grid-cols-2 2xl:grid-cols-3">
               {reviews.map((review) => (
                 <Reveal key={review.id}>
                   <div className="rounded-xl border bg-card p-5">

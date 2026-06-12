@@ -18,9 +18,9 @@ export default function CollectionDetail() {
     return (
       <div>
         <Skeleton className="h-56 w-full rounded-none md:h-72" />
-        <div className="mx-auto max-w-6xl px-6 py-10">
+        <div className="page-x py-10">
           <Skeleton className="h-4 w-40" />
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
             {Array.from({ length: 3 }).map((_, i) => (
               <Skeleton key={i} className="aspect-[4/3] w-full rounded-2xl" />
             ))}
@@ -53,13 +53,13 @@ export default function CollectionDetail() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
         <div className="absolute inset-x-0 bottom-0">
-          <div className="mx-auto max-w-6xl px-6 pb-6">
+          <div className="page-x pb-6">
             <h1 className="font-display text-4xl text-white md:text-5xl">{collection.title}</h1>
           </div>
         </div>
       </div>
 
-      <div className="mx-auto max-w-6xl px-6 py-10">
+      <div className="page-x py-10">
         <Link
           to="/collections"
           className="eyebrow inline-flex items-center gap-1 transition-colors hover:text-foreground"

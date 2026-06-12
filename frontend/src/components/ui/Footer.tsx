@@ -8,7 +8,7 @@ export default function Footer() {
 
   return (
     <footer className="mt-20 bg-primary text-primary-foreground">
-      <div className="mx-auto max-w-6xl px-6 py-14">
+      <div className="page-x py-14">
         <div className="flex flex-col gap-10 md:flex-row md:justify-between">
           <div className="max-w-sm">
             <p className="font-display text-2xl">{t('brand.name')}</p>

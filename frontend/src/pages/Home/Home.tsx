@@ -11,7 +11,7 @@ import { useCraftsmen } from '@/hooks/useCraftsmen';
 import { useTaxonomy } from '@/hooks/useTaxonomy';
 import { useJournal } from '@/hooks/useJournal';
 
-const HERO_IMAGE = 'https://loremflickr.com/1600/2000/pottery,artisan,hands?lock=42';
+const HERO_IMAGE = 'https://loremflickr.com/1600/1200/pottery,artisan,hands?lock=42';
 
 const STEPS = [
   { icon: Compass, key: 'step1' },
@@ -57,7 +57,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-16 md:grid-cols-2 md:py-24">
+      <section className="page-x grid items-center gap-12 py-16 md:grid-cols-2 md:py-24">
         <div className="animate-in fade-in slide-in-from-bottom-6 duration-700">
           <span className="eyebrow">{t('home.eyebrow')}</span>
           <h1 className="mt-4 text-balance font-display text-5xl leading-[1.05] text-foreground md:text-6xl">
@@ -87,14 +87,14 @@ export default function Home() {
           </dl>
         </div>
         <div className="animate-in fade-in zoom-in-95 duration-1000">
-          <div className="aspect-[4/5] overflow-hidden rounded-2xl border bg-secondary shadow-sm">
+          <div className="aspect-[4/3] overflow-hidden rounded-2xl border bg-secondary shadow-sm">
             <img src={HERO_IMAGE} alt="" className="size-full object-cover" loading="eager" />
           </div>
         </div>
       </section>
 
       {/* Featured artisans */}
-      <section className="mx-auto max-w-6xl px-6 py-16">
+      <section className="page-x py-16">
         <Reveal className="flex items-end justify-between gap-4">
           <div>
             <p className="eyebrow">{t('home.featuredTitle')}</p>
@@ -109,7 +109,7 @@ export default function Home() {
             </Link>
           </Button>
         </Reveal>
-        <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
           {featuredLoading ? (
             <FeaturedSkeletons />
           ) : (
@@ -128,7 +128,7 @@ export default function Home() {
 
       {/* Browse by craft */}
       <section className="border-y bg-card/40">
-        <div className="mx-auto max-w-6xl px-6 py-16">
+        <div className="page-x py-16">
           <Reveal>
             <p className="eyebrow">{t('home.browseByCraft')}</p>
             <h2 className="mt-2 font-display text-3xl text-foreground">{t('home.browseSubtitle')}</h2>
@@ -142,10 +142,10 @@ export default function Home() {
                     to={`/explore?category=${category.slug}`}
                     className="group flex h-full flex-col gap-3 rounded-xl border bg-card p-5 transition-all duration-300 hover:-translate-y-1 hover:border-copper/40 hover:shadow-sm"
                   >
-                    <span className="flex size-11 items-center justify-center rounded-lg bg-secondary text-foreground transition-colors duration-300 group-hover:bg-copper group-hover:text-copper-foreground">
-                      <Icon className="size-5" />
+                    <span className="flex size-14 items-center justify-center rounded-xl bg-secondary text-foreground transition-colors duration-300 group-hover:bg-copper group-hover:text-copper-foreground">
+                      <Icon className="size-6" />
                     </span>
-                    <span className="font-display text-lg text-foreground">
+                    <span className="font-display text-xl text-foreground">
                       {t(category.nameKey)}
                     </span>
                   </Link>
@@ -157,7 +157,7 @@ export default function Home() {
       </section>
 
       {/* How it works */}
-      <section className="mx-auto max-w-6xl px-6 py-16">
+      <section className="page-x py-16">
         <Reveal className="max-w-2xl">
           <p className="eyebrow">{t('home.howTitle')}</p>
           <h2 className="mt-2 font-display text-3xl text-foreground">{t('home.howSubtitle')}</h2>
@@ -167,8 +167,8 @@ export default function Home() {
             const Icon = step.icon;
             return (
               <Reveal key={step.key} delay={i * 100}>
-                <span className="flex size-12 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                  <Icon className="size-5" />
+                <span className="flex size-14 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                  <Icon className="size-6" />
                 </span>
                 <h3 className="mt-5 font-display text-xl text-foreground">
                   {t(`home.${step.key}Title`)}
@@ -182,7 +182,7 @@ export default function Home() {
 
       {/* Regions */}
       <section className="border-y bg-secondary/40">
-        <div className="mx-auto max-w-6xl px-6 py-16">
+        <div className="page-x py-16">
           <Reveal className="max-w-2xl">
             <p className="eyebrow">{t('home.regionsTitle')}</p>
             <h2 className="mt-2 font-display text-3xl text-foreground">
@@ -205,7 +205,7 @@ export default function Home() {
       </section>
 
       {/* From the Journal */}
-      <section className="mx-auto max-w-6xl px-6 py-16">
+      <section className="page-x py-16">
         <Reveal className="flex items-end justify-between gap-4">
           <div>
             <p className="eyebrow">{t('home.journalTitle')}</p>
@@ -239,7 +239,7 @@ export default function Home() {
 
       {/* Artisan CTA */}
       <section className="bg-primary text-primary-foreground">
-        <div className="mx-auto max-w-6xl px-6 py-20 text-center">
+        <div className="page-x py-20 text-center">
           <Reveal>
             <h2 className="mx-auto max-w-2xl text-balance font-display text-4xl text-primary-foreground">
               {t('home.ctaTitle')}

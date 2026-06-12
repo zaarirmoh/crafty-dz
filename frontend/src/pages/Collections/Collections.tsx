@@ -9,7 +9,7 @@ export default function Collections() {
   const { collections, loading, error } = useCollections();
 
   return (
-    <div className="mx-auto max-w-6xl px-6 py-12">
+    <div className="page-x py-12">
       <header className="animate-in fade-in slide-in-from-bottom-4 duration-500">
         <h1 className="font-display text-4xl text-foreground md:text-5xl">
           {t('collections.title')}
@@ -17,7 +17,7 @@ export default function Collections() {
         <p className="mt-3 max-w-xl text-muted-foreground">{t('collections.subtitle')}</p>
       </header>
 
-      <div className="mt-10 grid gap-8 md:grid-cols-3">
+      <div className="mt-10 grid gap-8 md:grid-cols-3 2xl:grid-cols-4">
         {error ? (
           <p className="col-span-full py-20 text-center text-muted-foreground">{t('error.title')}</p>
         ) : loading ? (

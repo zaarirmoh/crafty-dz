@@ -161,7 +161,7 @@
     "roleCraftsman": "Artisan",
     "signIn": "Sign in",
     "createAccount": "Create account",
-    "demoNote": "Demo mode — any details sign you in. No real account is created.",
+    "demoNote": "Demo mode — sign in with admin@…, craftsman@… or client@… to preview each role.",
     "haveAccount": "Already have an account?",
     "noAccount": "New to DzairCraft?"
   },

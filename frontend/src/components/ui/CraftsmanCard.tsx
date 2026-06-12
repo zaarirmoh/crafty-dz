@@ -49,7 +49,7 @@ function CraftsmanCardComponent({
       <div className="p-5">
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
-            <h3 className="truncate font-display text-lg leading-tight text-foreground">
+            <h3 className="truncate font-display text-xl leading-tight text-foreground">
               {craftsman.displayName}
             </h3>
             <p className="mt-0.5 text-sm text-muted-foreground">{craftsman.specialty}</p>
@@ -58,7 +58,7 @@ function CraftsmanCardComponent({
         </div>
         {regionNameKey && (
           <p className="mt-3 flex items-center gap-1 text-xs text-muted-foreground">
-            <MapPin className="size-3" />
+            <MapPin className="size-4" />
             {t(regionNameKey)}
           </p>
         )}
