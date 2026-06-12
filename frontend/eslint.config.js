@@ -27,4 +27,13 @@ export default defineConfig([
       'react-refresh/only-export-components': 'off',
     },
   },
+  {
+    // The data-fetching hooks intentionally flip loading state when their effect
+    // runs (build prompt Section 15: custom hooks own loading/error, no React
+    // Query/SWR). That deliberate pattern trips the newer set-state-in-effect rule.
+    files: ['src/hooks/**/*.ts'],
+    rules: {
+      'react-hooks/set-state-in-effect': 'off',
+    },
+  },
 ])

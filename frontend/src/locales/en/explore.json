@@ -1,0 +1,23 @@
+{
+  "title": "Explore artisans",
+  "subtitle": "Find a master by craft, origin, rating and commission price.",
+  "filterResults": "Filter results",
+  "category": "Category",
+  "origin": "Origin",
+  "allRegions": "All origins",
+  "minRating": "Minimum rating",
+  "priceRange": "Commission price",
+  "min": "Min",
+  "max": "Max",
+  "sortBy": "Sort by",
+  "sortRating": "Top rated",
+  "sortPriceAsc": "Price: low to high",
+  "sortPriceDesc": "Price: high to low",
+  "reset": "Reset filters",
+  "results": "{{count}} artisans",
+  "empty": "No artisans match these filters.",
+  "emptyHint": "Try widening your search or resetting the filters.",
+  "error": "We couldn't load artisans. Please try again.",
+  "prevPage": "Previous page",
+  "nextPage": "Next page"
+}

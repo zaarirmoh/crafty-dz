@@ -1,0 +1,23 @@
+{
+  "title": "Explorer les artisans",
+  "subtitle": "Trouvez un maître par métier, origine, note et prix de commande.",
+  "filterResults": "Filtrer les résultats",
+  "category": "Catégorie",
+  "origin": "Origine",
+  "allRegions": "Toutes les origines",
+  "minRating": "Note minimale",
+  "priceRange": "Prix de commande",
+  "min": "Min",
+  "max": "Max",
+  "sortBy": "Trier par",
+  "sortRating": "Les mieux notés",
+  "sortPriceAsc": "Prix : croissant",
+  "sortPriceDesc": "Prix : décroissant",
+  "reset": "Réinitialiser",
+  "results": "{{count}} artisans",
+  "empty": "Aucun artisan ne correspond à ces filtres.",
+  "emptyHint": "Élargissez votre recherche ou réinitialisez les filtres.",
+  "error": "Impossible de charger les artisans. Réessayez.",
+  "prevPage": "Page précédente",
+  "nextPage": "Page suivante"
+}
