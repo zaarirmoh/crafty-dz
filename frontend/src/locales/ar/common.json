@@ -165,6 +165,36 @@
     "haveAccount": "لديك حساب بالفعل؟",
     "noAccount": "جديد على DzairCraft؟"
   },
+  "account": {
+    "title": "الحساب",
+    "greeting": "أهلًا بعودتك، {{name}}",
+    "favorites": "الحِرفيون المحفوظون",
+    "commissions": "طلباتي",
+    "settings": "الإعدادات",
+    "noFavorites": "لم تحفظ أي حِرفي بعد.",
+    "browseArtisans": "تصفّح الحِرفيين",
+    "noCommissions": "ليس لديك أي طلبات تحف.",
+    "cancel": "إلغاء",
+    "cancelled": "أُلغي الطلب (تجريبي).",
+    "budget": "الميزانية",
+    "settingsName": "الاسم المعروض",
+    "settingsEmail": "البريد الإلكتروني",
+    "settingsLanguage": "اللغة",
+    "save": "حفظ التغييرات",
+    "saved": "حُفظ الملف (تجريبي).",
+    "toggleFavorite": "حفظ الحِرفي"
+  },
+  "status": {
+    "requested": "مطلوبة",
+    "accepted": "مقبولة",
+    "in_progress": "قيد التنفيذ",
+    "completed": "مكتملة",
+    "declined": "مرفوضة",
+    "cancelled": "ملغاة",
+    "pending": "قيد الانتظار",
+    "approved": "موافَق عليه",
+    "suspended": "موقوف"
+  },
   "footer": {
     "rights": "جميع الحقوق محفوظة.",
     "discover": "اكتشف",

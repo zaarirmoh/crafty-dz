@@ -165,6 +165,36 @@
     "haveAccount": "Vous avez déjà un compte ?",
     "noAccount": "Nouveau sur DzairCraft ?"
   },
+  "account": {
+    "title": "Compte",
+    "greeting": "Bon retour, {{name}}",
+    "favorites": "Artisans enregistrés",
+    "commissions": "Mes commandes",
+    "settings": "Paramètres",
+    "noFavorites": "Vous n'avez encore enregistré aucun artisan.",
+    "browseArtisans": "Parcourir les artisans",
+    "noCommissions": "Vous n'avez aucune demande de commande.",
+    "cancel": "Annuler",
+    "cancelled": "Demande annulée (démo).",
+    "budget": "Budget",
+    "settingsName": "Nom affiché",
+    "settingsEmail": "E-mail",
+    "settingsLanguage": "Langue",
+    "save": "Enregistrer",
+    "saved": "Profil enregistré (démo).",
+    "toggleFavorite": "Enregistrer l'artisan"
+  },
+  "status": {
+    "requested": "Demandée",
+    "accepted": "Acceptée",
+    "in_progress": "En cours",
+    "completed": "Terminée",
+    "declined": "Refusée",
+    "cancelled": "Annulée",
+    "pending": "En attente",
+    "approved": "Approuvé",
+    "suspended": "Suspendu"
+  },
   "footer": {
     "rights": "Tous droits réservés.",
     "discover": "Découvrir",

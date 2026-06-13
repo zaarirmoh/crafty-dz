@@ -165,6 +165,36 @@
     "haveAccount": "Already have an account?",
     "noAccount": "New to DzairCraft?"
   },
+  "account": {
+    "title": "Account",
+    "greeting": "Welcome back, {{name}}",
+    "favorites": "Saved artisans",
+    "commissions": "My commissions",
+    "settings": "Settings",
+    "noFavorites": "You haven't saved any artisans yet.",
+    "browseArtisans": "Browse artisans",
+    "noCommissions": "You have no commission requests yet.",
+    "cancel": "Cancel",
+    "cancelled": "Request cancelled (demo).",
+    "budget": "Budget",
+    "settingsName": "Display name",
+    "settingsEmail": "Email",
+    "settingsLanguage": "Language",
+    "save": "Save changes",
+    "saved": "Profile saved (demo).",
+    "toggleFavorite": "Save artisan"
+  },
+  "status": {
+    "requested": "Requested",
+    "accepted": "Accepted",
+    "in_progress": "In progress",
+    "completed": "Completed",
+    "declined": "Declined",
+    "cancelled": "Cancelled",
+    "pending": "Pending",
+    "approved": "Approved",
+    "suspended": "Suspended"
+  },
   "footer": {
     "rights": "All rights reserved.",
     "discover": "Discover",
