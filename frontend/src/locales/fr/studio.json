@@ -1,0 +1,62 @@
+{
+  "welcome": "Votre atelier, {{name}}",
+  "subtitle": "Gérez votre profil, vos œuvres et vos demandes de commande.",
+  "completeness": "Complétude du profil",
+  "stats": {
+    "works": "Œuvres",
+    "published": "Publiées",
+    "pending": "Demandes en attente",
+    "rating": "Note"
+  },
+  "recentRequests": "Demandes récentes",
+  "viewAll": "Voir tout",
+  "noRequests": "Aucune demande de commande.",
+  "profile": {
+    "title": "Modifier le profil",
+    "subtitle": "Voici ce que les clients voient sur votre page publique.",
+    "displayName": "Nom affiché",
+    "specialty": "Spécialité",
+    "region": "Région",
+    "bio": "Biographie",
+    "coverImage": "URL de l'image de couverture",
+    "commissionFrom": "Commande à partir de (DZD)",
+    "save": "Enregistrer le profil",
+    "saved": "Profil enregistré (démo)."
+  },
+  "works": {
+    "title": "Œuvres",
+    "subtitle": "Gérez les pièces affichées sur votre profil.",
+    "new": "Nouvelle œuvre",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "deleted": "Œuvre supprimée (démo).",
+    "empty": "Vous n'avez encore ajouté aucune œuvre.",
+    "newTitle": "Nouvelle œuvre",
+    "editTitle": "Modifier l'œuvre",
+    "fieldTitle": "Titre",
+    "fieldDescription": "Description",
+    "fieldCategory": "Catégorie",
+    "fieldPrice": "Prix (DZD)",
+    "fieldImage": "URL de l'image",
+    "fieldStatus": "Statut",
+    "draft": "Brouillon",
+    "published": "Publiée",
+    "save": "Enregistrer l'œuvre",
+    "saved": "Œuvre enregistrée (démo).",
+    "cancel": "Annuler",
+    "notFound": "Œuvre introuvable."
+  },
+  "commissions": {
+    "title": "Demandes de commande",
+    "subtitle": "Répondez aux clients qui souhaitent vous passer commande.",
+    "empty": "Aucune demande de commande.",
+    "budget": "Budget",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "markInProgress": "Marquer en cours",
+    "markCompleted": "Marquer terminée",
+    "accepted": "Demande acceptée (démo).",
+    "declined": "Demande refusée (démo).",
+    "updated": "Statut mis à jour (démo)."
+  }
+}

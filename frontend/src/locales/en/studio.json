@@ -1,0 +1,62 @@
+{
+  "welcome": "Your studio, {{name}}",
+  "subtitle": "Manage your profile, works and commission requests.",
+  "completeness": "Profile completeness",
+  "stats": {
+    "works": "Works",
+    "published": "Published",
+    "pending": "Pending requests",
+    "rating": "Rating"
+  },
+  "recentRequests": "Recent requests",
+  "viewAll": "View all",
+  "noRequests": "No commission requests yet.",
+  "profile": {
+    "title": "Edit profile",
+    "subtitle": "This is what clients see on your public page.",
+    "displayName": "Display name",
+    "specialty": "Specialty",
+    "region": "Region",
+    "bio": "Bio",
+    "coverImage": "Cover image URL",
+    "commissionFrom": "Commission from (DZD)",
+    "save": "Save profile",
+    "saved": "Profile saved (demo)."
+  },
+  "works": {
+    "title": "Works",
+    "subtitle": "Manage the pieces shown on your profile.",
+    "new": "New work",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleted": "Work deleted (demo).",
+    "empty": "You haven't added any works yet.",
+    "newTitle": "New work",
+    "editTitle": "Edit work",
+    "fieldTitle": "Title",
+    "fieldDescription": "Description",
+    "fieldCategory": "Category",
+    "fieldPrice": "Price (DZD)",
+    "fieldImage": "Image URL",
+    "fieldStatus": "Status",
+    "draft": "Draft",
+    "published": "Published",
+    "save": "Save work",
+    "saved": "Work saved (demo).",
+    "cancel": "Cancel",
+    "notFound": "Work not found."
+  },
+  "commissions": {
+    "title": "Commission requests",
+    "subtitle": "Respond to clients who want to commission you.",
+    "empty": "No commission requests yet.",
+    "budget": "Budget",
+    "accept": "Accept",
+    "decline": "Decline",
+    "markInProgress": "Mark in progress",
+    "markCompleted": "Mark completed",
+    "accepted": "Request accepted (demo).",
+    "declined": "Request declined (demo).",
+    "updated": "Status updated (demo)."
+  }
+}

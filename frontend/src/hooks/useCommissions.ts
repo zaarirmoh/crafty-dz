@@ -1,5 +1,10 @@
 import { useCallback, useEffect, useState } from 'react';
-import { fetchClientCommissions, type CommissionWithCraftsman } from '@/api/commissions';
+import {
+  fetchClientCommissions,
+  fetchCraftsmanCommissions,
+  type CommissionWithClient,
+  type CommissionWithCraftsman,
+} from '@/api/commissions';
 
 export const useClientCommissions = (clientId: string) => {
   const [commissions, setCommissions] = useState<CommissionWithCraftsman[]>([]);
@@ -9,8 +14,7 @@ export const useClientCommissions = (clientId: string) => {
   const load = useCallback(async () => {
     try {
       setLoading(true);
-      const list = await fetchClientCommissions(clientId);
-      setCommissions(list);
+      setCommissions(await fetchClientCommissions(clientId));
       setError(null);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred');
@@ -24,4 +28,21 @@ export const useClientCommissions = (clientId: string) => {
   }, [load]);
 
   return { commissions, loading, error };
+};
+
+export const useCraftsmanCommissions = (craftsmanId: string) => {
+  const [commissions, setCommissions] = useState<CommissionWithClient[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  const load = useCallback(async () => {
+    setLoading(true);
+    setCommissions(craftsmanId ? await fetchCraftsmanCommissions(craftsmanId) : []);
+    setLoading(false);
+  }, [craftsmanId]);
+
+  useEffect(() => {
+    void load();
+  }, [load]);
+
+  return { commissions, loading };
 };

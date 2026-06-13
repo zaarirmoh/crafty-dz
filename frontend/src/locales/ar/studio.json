@@ -1,0 +1,62 @@
+{
+  "welcome": "مرسمك، {{name}}",
+  "subtitle": "أدر ملفك وأعمالك وطلبات التحف.",
+  "completeness": "اكتمال الملف",
+  "stats": {
+    "works": "الأعمال",
+    "published": "المنشورة",
+    "pending": "طلبات معلّقة",
+    "rating": "التقييم"
+  },
+  "recentRequests": "أحدث الطلبات",
+  "viewAll": "عرض الكل",
+  "noRequests": "لا توجد طلبات تحف بعد.",
+  "profile": {
+    "title": "تعديل الملف",
+    "subtitle": "هذا ما يراه العملاء في صفحتك العامة.",
+    "displayName": "الاسم المعروض",
+    "specialty": "التخصص",
+    "region": "المنطقة",
+    "bio": "نبذة",
+    "coverImage": "رابط صورة الغلاف",
+    "commissionFrom": "الطلب ابتداءً من (دج)",
+    "save": "حفظ الملف",
+    "saved": "حُفظ الملف (تجريبي)."
+  },
+  "works": {
+    "title": "الأعمال",
+    "subtitle": "أدر القطع المعروضة في ملفك.",
+    "new": "عمل جديد",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "deleted": "حُذف العمل (تجريبي).",
+    "empty": "لم تضف أي عمل بعد.",
+    "newTitle": "عمل جديد",
+    "editTitle": "تعديل العمل",
+    "fieldTitle": "العنوان",
+    "fieldDescription": "الوصف",
+    "fieldCategory": "الفئة",
+    "fieldPrice": "السعر (دج)",
+    "fieldImage": "رابط الصورة",
+    "fieldStatus": "الحالة",
+    "draft": "مسودة",
+    "published": "منشور",
+    "save": "حفظ العمل",
+    "saved": "حُفظ العمل (تجريبي).",
+    "cancel": "إلغاء",
+    "notFound": "العمل غير موجود."
+  },
+  "commissions": {
+    "title": "طلبات التحف",
+    "subtitle": "رُدّ على العملاء الراغبين في طلب تحف منك.",
+    "empty": "لا توجد طلبات تحف بعد.",
+    "budget": "الميزانية",
+    "accept": "قبول",
+    "decline": "رفض",
+    "markInProgress": "وضع قيد التنفيذ",
+    "markCompleted": "وضع مكتملة",
+    "accepted": "قُبل الطلب (تجريبي).",
+    "declined": "رُفض الطلب (تجريبي).",
+    "updated": "حُدّثت الحالة (تجريبي)."
+  }
+}
