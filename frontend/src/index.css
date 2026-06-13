@@ -131,3 +131,18 @@
     scroll-behavior: auto !important;
   }
 }
+
+@layer base {
+  /* Visible keyboard focus for any focusable element that doesn't define its own
+     ring (shadcn components set outline-none + ring and override this). */
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+}
+
+/* Arabic does not use letter-spacing — strip tracking in RTL so the connected
+   letterforms/ligatures stay intact. */
+[dir="rtl"] * {
+  letter-spacing: normal !important;
+}

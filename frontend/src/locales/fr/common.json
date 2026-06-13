@@ -195,6 +195,10 @@
     "approved": "Approuvé",
     "suspended": "Suspendu"
   },
+  "notFound": {
+    "message": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "back": "Retour à l'accueil"
+  },
   "footer": {
     "rights": "Tous droits réservés.",
     "discover": "Découvrir",

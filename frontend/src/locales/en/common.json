@@ -195,6 +195,10 @@
     "approved": "Approved",
     "suspended": "Suspended"
   },
+  "notFound": {
+    "message": "The page you're looking for doesn't exist or has moved.",
+    "back": "Back to home"
+  },
   "footer": {
     "rights": "All rights reserved.",
     "discover": "Discover",
