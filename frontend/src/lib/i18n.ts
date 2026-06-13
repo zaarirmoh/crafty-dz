@@ -35,6 +35,10 @@ void i18n.use(initReactI18next).init({
   defaultNS: 'common',
   ns: ['common', 'explore', 'studio', 'admin'],
   interpolation: { escapeValue: false },
+  // All resources are bundled, so never suspend on translation — suspending in a
+  // layout (which sits outside the per-route Suspense) would blank the page on
+  // in-app navigation while a refresh worked.
+  react: { useSuspense: false },
 });
 
 export default i18n;

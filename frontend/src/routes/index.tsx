@@ -46,11 +46,15 @@ export default function AppRouter() {
   return (
     <BrowserRouter>
       <TooltipProvider>
-        <Routes>
-          {allRoutes.map((route) => (
-            <Route key={route.path} path={route.path} element={<RouteGuard route={route} />} />
-          ))}
-        </Routes>
+        {/* Top-level safety net: a suspend in a layout (outside the per-route
+            boundary) is caught here instead of blanking the whole app. */}
+        <Suspense fallback={<PageFallback />}>
+          <Routes>
+            {allRoutes.map((route) => (
+              <Route key={route.path} path={route.path} element={<RouteGuard route={route} />} />
+            ))}
+          </Routes>
+        </Suspense>
       </TooltipProvider>
     </BrowserRouter>
   );
