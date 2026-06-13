@@ -146,3 +146,36 @@
 [dir="rtl"] * {
   letter-spacing: normal !important;
 }
+
+@layer components {
+  /* Subtle interactive raise for cards and list rows on hover. */
+  .hover-raise {
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease,
+      border-color 0.2s ease;
+  }
+  .hover-raise:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px -10px color-mix(in oklab, var(--primary) 28%, transparent);
+    border-color: color-mix(in oklab, var(--copper) 45%, transparent);
+  }
+
+  /* Animated center-out underline for nav links. */
+  .nav-underline {
+    position: relative;
+  }
+  .nav-underline::after {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    bottom: -0.35rem;
+    height: 1.5px;
+    background: var(--copper);
+    transform: scaleX(0);
+    transition: transform 0.25s ease;
+  }
+  .nav-underline:hover::after {
+    transform: scaleX(1);
+  }
+}

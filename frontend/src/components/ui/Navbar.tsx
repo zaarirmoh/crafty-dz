@@ -54,7 +54,7 @@ export default function Navbar() {
                 to={link.to}
                 className={({ isActive }) =>
                   cn(
-                    'text-sm font-medium transition-colors hover:text-foreground',
+                    'nav-underline text-sm font-medium transition-colors hover:text-foreground',
                     isActive ? 'text-foreground' : 'text-muted-foreground',
                   )
                 }

@@ -1,4 +1,5 @@
 import { useState, type ReactNode } from 'react';
+import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Menu } from 'lucide-react';
 import DashboardSidebar from '@/components/ui/DashboardSidebar';
@@ -17,6 +18,7 @@ import { selectDir } from '@/redux/selectors/uiSelector';
 export default function DashboardWrapper({ children }: { children: ReactNode }) {
   const role = useAppSelector(selectRole);
   const dir = useAppSelector(selectDir);
+  const location = useLocation();
   const { t } = useTranslation('common');
   const [navOpen, setNavOpen] = useState(false);
   const areaLabel = role === 'admin' ? t('nav.admin') : t('nav.studio');
@@ -43,7 +45,15 @@ export default function DashboardWrapper({ children }: { children: ReactNode }) 
           <LanguageSwitcher />
         </header>
         <ErrorBoundary>
-          <main className="flex-1 p-4 sm:p-6">{children}</main>
+          <main className="flex-1 p-4 sm:p-6">
+            {/* Keyed on the path so each dashboard page animates in on navigation. */}
+            <div
+              key={location.pathname}
+              className="animate-in fade-in slide-in-from-bottom-2 duration-500"
+            >
+              {children}
+            </div>
+          </main>
         </ErrorBoundary>
       </div>
     </div>

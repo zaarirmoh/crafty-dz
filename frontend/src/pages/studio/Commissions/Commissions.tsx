@@ -47,7 +47,7 @@ export default function StudioCommissions() {
           {commissions.map((commission) => {
             const status = overrides[commission.id] ?? commission.status;
             return (
-              <li key={commission.id} className="rounded-xl border bg-card p-5">
+              <li key={commission.id} className="hover-raise rounded-xl border bg-card p-5">
                 <div className="flex items-start justify-between gap-4">
                   <div className="min-w-0">
                     <p className="font-display text-lg text-foreground">{commission.clientName}</p>

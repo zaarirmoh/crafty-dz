@@ -42,7 +42,10 @@ export default function AdminJournal() {
       ) : (
         <ul className="space-y-3">
           {visible.map((post) => (
-            <li key={post.id} className="flex items-center gap-4 rounded-xl border bg-card p-4">
+            <li
+              key={post.id}
+              className="hover-raise flex items-center gap-4 rounded-xl border bg-card p-4"
+            >
               <img
                 src={post.coverImage}
                 alt={post.title}

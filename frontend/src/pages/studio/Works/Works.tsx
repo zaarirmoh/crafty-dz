@@ -50,7 +50,10 @@ export default function StudioWorks() {
       ) : (
         <ul className="space-y-3">
           {visible.map((work) => (
-            <li key={work.id} className="flex items-center gap-4 rounded-xl border bg-card p-4">
+            <li
+              key={work.id}
+              className="hover-raise flex items-center gap-4 rounded-xl border bg-card p-4"
+            >
               <img
                 src={work.images[0]}
                 alt={work.title}

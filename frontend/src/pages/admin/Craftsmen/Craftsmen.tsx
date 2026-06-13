@@ -44,7 +44,7 @@ export default function AdminCraftsmen() {
             return (
               <li
                 key={craftsman.id}
-                className="flex flex-wrap items-center gap-4 rounded-xl border bg-card p-4"
+                className="hover-raise flex flex-wrap items-center gap-4 rounded-xl border bg-card p-4"
               >
                 <img
                   src={craftsman.coverImage}
