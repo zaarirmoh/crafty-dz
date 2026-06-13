@@ -1,0 +1,57 @@
+{
+  "overview": {
+    "title": "Aperçu admin",
+    "subtitle": "Un aperçu de la plateforme.",
+    "artisans": "Artisans",
+    "clients": "Clients",
+    "pending": "Approbations en attente",
+    "commissions": "Commandes",
+    "pendingQueue": "Approbations en attente",
+    "reviewAll": "Tout examiner",
+    "noPending": "Aucune candidature en attente."
+  },
+  "craftsmen": {
+    "title": "Artisans",
+    "subtitle": "Approuvez les candidatures, suspendez ou réintégrez les artisans.",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "suspend": "Suspendre",
+    "reinstate": "Réintégrer",
+    "approved": "{{name}} approuvé (démo).",
+    "rejected": "{{name}} rejeté (démo).",
+    "suspended": "{{name}} suspendu (démo).",
+    "reinstated": "{{name}} réintégré (démo)."
+  },
+  "users": {
+    "title": "Utilisateurs",
+    "subtitle": "Tous les comptes clients et artisans.",
+    "name": "Nom",
+    "email": "E-mail",
+    "role": "Rôle"
+  },
+  "works": {
+    "title": "Modérer les œuvres",
+    "subtitle": "Examinez et retirez les œuvres de la plateforme.",
+    "by": "par {{name}}",
+    "remove": "Retirer",
+    "removed": "Œuvre retirée (démo).",
+    "empty": "Aucune œuvre à modérer."
+  },
+  "journal": {
+    "title": "Gérer le journal",
+    "subtitle": "Articles éditoriaux.",
+    "new": "Nouvel article",
+    "newToast": "L'éditeur d'articles est une démo.",
+    "delete": "Supprimer",
+    "deleted": "Article supprimé (démo).",
+    "by": "par {{author}}"
+  },
+  "taxonomy": {
+    "title": "Catégories & régions",
+    "subtitle": "Gérez les catégories de métiers et les régions du patrimoine.",
+    "categories": "Catégories",
+    "regions": "Régions",
+    "delete": "Supprimer",
+    "deleted": "Supprimé (démo)."
+  }
+}

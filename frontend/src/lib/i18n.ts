@@ -9,6 +9,9 @@ import ar_explore from '@/locales/ar/explore.json';
 import en_studio from '@/locales/en/studio.json';
 import fr_studio from '@/locales/fr/studio.json';
 import ar_studio from '@/locales/ar/studio.json';
+import en_admin from '@/locales/en/admin.json';
+import fr_admin from '@/locales/fr/admin.json';
+import ar_admin from '@/locales/ar/admin.json';
 
 // react-i18next setup (build prompt Section 17). en is the dev default; fr and ar
 // ship fully, ar is RTL. The initial language is read from localStorage so it
@@ -23,14 +26,14 @@ const lng = (SUPPORTED as readonly string[]).includes(stored ?? '')
 
 void i18n.use(initReactI18next).init({
   resources: {
-    en: { common: en_common, explore: en_explore, studio: en_studio },
-    fr: { common: fr_common, explore: fr_explore, studio: fr_studio },
-    ar: { common: ar_common, explore: ar_explore, studio: ar_studio },
+    en: { common: en_common, explore: en_explore, studio: en_studio, admin: en_admin },
+    fr: { common: fr_common, explore: fr_explore, studio: fr_studio, admin: fr_admin },
+    ar: { common: ar_common, explore: ar_explore, studio: ar_studio, admin: ar_admin },
   },
   lng,
   fallbackLng: 'en',
   defaultNS: 'common',
-  ns: ['common', 'explore', 'studio'],
+  ns: ['common', 'explore', 'studio', 'admin'],
   interpolation: { escapeValue: false },
 });
 

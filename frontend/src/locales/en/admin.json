@@ -1,0 +1,57 @@
+{
+  "overview": {
+    "title": "Admin overview",
+    "subtitle": "A snapshot of the platform.",
+    "artisans": "Artisans",
+    "clients": "Clients",
+    "pending": "Pending approvals",
+    "commissions": "Commissions",
+    "pendingQueue": "Pending approvals",
+    "reviewAll": "Review all",
+    "noPending": "No pending applications."
+  },
+  "craftsmen": {
+    "title": "Craftsmen",
+    "subtitle": "Approve applications, suspend or reinstate artisans.",
+    "approve": "Approve",
+    "reject": "Reject",
+    "suspend": "Suspend",
+    "reinstate": "Reinstate",
+    "approved": "{{name}} approved (demo).",
+    "rejected": "{{name}} rejected (demo).",
+    "suspended": "{{name}} suspended (demo).",
+    "reinstated": "{{name}} reinstated (demo)."
+  },
+  "users": {
+    "title": "Users",
+    "subtitle": "All client and artisan accounts.",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role"
+  },
+  "works": {
+    "title": "Moderate works",
+    "subtitle": "Review and remove works across the platform.",
+    "by": "by {{name}}",
+    "remove": "Remove",
+    "removed": "Work removed (demo).",
+    "empty": "No works to moderate."
+  },
+  "journal": {
+    "title": "Manage journal",
+    "subtitle": "Editorial posts.",
+    "new": "New post",
+    "newToast": "Post editor is a demo.",
+    "delete": "Delete",
+    "deleted": "Post deleted (demo).",
+    "by": "by {{author}}"
+  },
+  "taxonomy": {
+    "title": "Categories & regions",
+    "subtitle": "Manage the craft categories and heritage regions.",
+    "categories": "Categories",
+    "regions": "Regions",
+    "delete": "Delete",
+    "deleted": "Removed (demo)."
+  }
+}
